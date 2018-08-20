@@ -1,0 +1,24 @@
+{
+  "name": "Magic Button",
+  "device_id": "magic-button",
+  "device_stats_interval": 60,
+  "wifi": {
+    "ssid": "SSID",
+    "password": "PASSWORD"
+  },
+  "mqtt": {
+    "host": "1.1.1.1",
+    "port": 1883,
+    "base_topic": "homie/",
+    "auth": true,
+    "username": "USERNAME",
+    "password": "PASSWORD"
+  },
+  "ota": {
+    "enabled": true
+  },
+  "settings": {
+    "percentage": 55
+  }
+}
+
