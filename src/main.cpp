@@ -86,7 +86,6 @@ void setup() {
     Homie.setup();
 
     buttonNode.advertise("status").settable(buttonHandler);
-    //buttonNode.advertise("state").settable(buttonHandler);
 }
 
 void loop() {
